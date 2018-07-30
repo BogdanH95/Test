@@ -1,8 +1,5 @@
 import org.junit.jupiter.api.Assertions.*
 import org.junit.jupiter.api.Test
-import test.agileFreaks.firstTwoLargestIndexes
-import kotlin.test.*
-
 
 internal class Task2Test {
 

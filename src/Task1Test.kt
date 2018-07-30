@@ -1,6 +1,5 @@
 import org.junit.jupiter.api.Assertions.*
 import org.junit.jupiter.api.Test
-import test.agileFreaks.sumOfEven
 
 internal class Task1Test {
 
