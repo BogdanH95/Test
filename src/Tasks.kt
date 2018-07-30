@@ -8,3 +8,6 @@ fun IntArray.sumOfEven():Int {
     return sum;
 }
 
+fun IntArray.firstTwoLargestIndexes():IntArray {
+    return intArrayOf(-2,-2)
+}
