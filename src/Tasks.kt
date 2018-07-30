@@ -1,4 +1,3 @@
-package test.agileFreaks
 
 fun IntArray.sumOfEven():Int {
     var sum =0
