@@ -21,3 +21,7 @@ fun IntArray.firstTwoLargestIndexes():IntArray {
     }
     return intArrayOf(this.indexOf(max),this.indexOf(theOtherOne))
 }
+
+fun IntArray.hasDuplicates(): Boolean {
+    return false
+}
