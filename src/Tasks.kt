@@ -4,7 +4,7 @@ fun IntArray.sumOfEven():Int {
     this.forEach {
         if (it % 2 == 0) sum += it
     }
-    return sum;
+    return sum
 }
 
 fun IntArray.firstTwoLargestIndexes():IntArray {
@@ -16,12 +16,13 @@ fun IntArray.firstTwoLargestIndexes():IntArray {
     this.forEach {
         if(it > max){
             theOtherOne = max
-            max =  it;
+            max =  it
         }
     }
     return intArrayOf(this.indexOf(max),this.indexOf(theOtherOne))
 }
 
-fun IntArray.hasDuplicates(): Boolean {
+//Made it function in order to manipulate the array
+fun hasDuplicates(array : IntArray): Boolean {
     return false
 }
