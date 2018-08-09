@@ -1,6 +1,6 @@
 
 fun IntArray.firstTwoLargestIndexes():IntArray {
-    if(this.count() < 2 ) return intArrayOf(-1,-1)
+    if(this.count() < 2 ) return intArrayOf( Int.MIN_VALUE, Int.MIN_VALUE)
 
     var max = Int.MIN_VALUE
     var theOtherOne = Int.MIN_VALUE
@@ -11,5 +11,5 @@ fun IntArray.firstTwoLargestIndexes():IntArray {
             max =  it
         }
     }
-    return intArrayOf(this.indexOf(max),this.indexOf(theOtherOne))
+    return intArrayOf(max,theOtherOne)
 }

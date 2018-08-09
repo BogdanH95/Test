@@ -10,8 +10,8 @@ internal class Task2Test {
     fun onEmptyArray() {
         val (max1,max2) = intArrayOf().firstTwoLargestIndexes()
 
-        assertEquals(-1, max1)
-        assertEquals(-1, max2)
+        assertEquals(Int.MIN_VALUE, max1)
+        assertEquals(Int.MIN_VALUE, max2)
     }
 
     @Test
@@ -19,8 +19,8 @@ internal class Task2Test {
     fun onSingleElementArray() {
         val (max1,max2) = intArrayOf(1).firstTwoLargestIndexes()
 
-        assertEquals(-1, max1)
-        assertEquals(-1, max2)
+        assertEquals(Int.MIN_VALUE, max1)
+        assertEquals(Int.MIN_VALUE, max2)
     }
 
     @Test
@@ -28,7 +28,7 @@ internal class Task2Test {
     fun onArrayOfInt(){
         val (max1,max2) = intArrayOf(1,2,10,3,4,11,5,6,7,8,9).firstTwoLargestIndexes()
 
-        assertEquals(5, max1)
-        assertEquals(2, max2)
+        assertEquals(11, max1)
+        assertEquals(10, max2)
     }
 }
