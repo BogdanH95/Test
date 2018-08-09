@@ -4,12 +4,17 @@ import org.junit.jupiter.api.Test
 internal class Task1Test {
 
     @Test
-    fun onEmptyArray() {
+    fun isEvenOnEvenNumber(){
+        assertTrue(2.isEven())
+    }
+
+    @Test
+    fun sumOfEvenOnEmptyArray() {
         assertEquals(0, intArrayOf().sumOfEven())
     }
 
     @Test
-    fun onArrayOfInt(){
+    fun sumOfEvenOnArrayOfInt(){
         assertEquals(6, intArrayOf(1,1,2,1,2,1,1,2,1,1).sumOfEven())
     }
 }

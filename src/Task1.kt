@@ -1,8 +1,10 @@
 
 fun IntArray.sumOfEven():Int {
-    var sum =0
-    this.forEach {
-        if (it % 2 == 0) sum += it
+    var sum = 0
+    this.forEach{
+    if (it.isEven()) sum += it
     }
     return sum
 }
+
+fun Int.isEven() = false
