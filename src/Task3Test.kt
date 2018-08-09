@@ -15,7 +15,7 @@ internal class Task3Test {
 
     @Test
     //Usual scenario without duplicates.
-    fun onNoDuplicatesArrayOfInt() = assertTrue(hasDuplicates(intArrayOf(1,2,3,4,5,6,7,8,9,10)))
+    fun onNoDuplicatesArrayOfInt() = assertFalse(hasDuplicates(intArrayOf(1,2,3,4,5,6,7,8,9,10)))
 
     @Test
     //Usual scenario with 10 as a duplicate.
