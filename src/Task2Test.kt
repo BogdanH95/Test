@@ -19,7 +19,7 @@ internal class Task2Test {
     fun onSingleElementArray() {
         val (max1,max2) = intArrayOf(1).firstTwoLargestIndexes()
 
-        assertEquals(Int.MIN_VALUE, max1)
+        assertEquals(1, max1)
         assertEquals(Int.MIN_VALUE, max2)
     }
 
