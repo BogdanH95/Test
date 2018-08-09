@@ -31,4 +31,12 @@ internal class Task2Test {
         assertEquals(11, max1)
         assertEquals(10, max2)
     }
+
+    @Test
+    //Test case where the second max is after the first max
+    fun onArrayOfIntSecondMaxAfterFirstMax(){
+        var (max1,max2) = intArrayOf(1,2,3,10,5,6,7,8).firstTwoLargestIndexes()
+        assertEquals(10,max1)
+        assertEquals(8,max2)
+    }
 }
