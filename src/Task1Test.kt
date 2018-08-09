@@ -9,6 +9,11 @@ internal class Task1Test {
     }
 
     @Test
+    fun isEvenOnOddNumber(){
+        assertFalse(1.isEven())
+    }
+
+    @Test
     fun sumOfEvenOnEmptyArray() {
         assertEquals(0, intArrayOf().sumOfEven())
     }
