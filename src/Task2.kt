@@ -7,7 +7,7 @@ fun IntArray.firstTwoLargestIndexes():IntArray {
         if(it > max){
             theOtherOne = max
             max =  it
-        }
+        }else if (it > theOtherOne ) theOtherOne  = it
     }
     return intArrayOf(max,theOtherOne)
 }
