@@ -7,10 +7,6 @@ fun IntArray.sumOfEven():Int {
     return sum
 }
 
-fun Int.isEven(): Boolean {
-    if( this % 2 == 0)
-        return true
-        else
-        return false
-}
+fun Int.isEven(): Boolean =  this % 2 == 0
+
 
