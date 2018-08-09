@@ -7,4 +7,4 @@ fun IntArray.sumOfEven():Int {
     return sum
 }
 
-fun Int.isEven() = false
+fun Int.isEven() = true
