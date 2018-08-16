@@ -4,7 +4,7 @@ import org.junit.jupiter.api.Test
 internal class Task3Test {
 
     @Test
-    fun onEmptyArray() = assertTrue(!hasDuplicates(intArrayOf()))
+    fun onEmptyArray() = assertFalse(hasDuplicates(intArrayOf()))
 
     @Test
     fun onSingleElementArray() = assertTrue(!hasDuplicates(intArrayOf(1)))
